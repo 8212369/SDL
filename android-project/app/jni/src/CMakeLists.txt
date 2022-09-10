@@ -6,7 +6,7 @@ find_library(SDL2 SDL2)
 
 add_library(main SHARED)
 
-target_sources(main PRIVATE YourSourceHere.c)
+target_sources(main PRIVATE main.c)
 
 target_link_libraries(main SDL2)
 
